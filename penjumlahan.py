@@ -1,5 +1,6 @@
-angka=int(input("masukan angka :"))
-if angka % 2 == 0 :
-    print(f"{angka} adalah bilangan genap.")
-else:
-    print(f"{angka} adalah bilangan ganjil.")
+a=int(input("masukan bilangan a :"))
+b=int(input("masukan bilangan b :"))
+jumlah=a+b
+hasil=a*b
+print("hasil",a,"*",b,"adalah",hasil)
+print("jumlah",a,"+",b,"adalah",jumlah)
